@@ -1,7 +1,7 @@
-import * as React from "react";
-import * as ReactDOM from "react";
+import React from "react";
+import ReactDOM from "react-dom";
 
-class HelloMessage extends React.Component {
+class HelloMessage extends React.Component<any> {
   render() {
     return <div>Hola {this.props.name}</div>;
   }
